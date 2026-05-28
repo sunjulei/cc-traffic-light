@@ -1,6 +1,6 @@
 # Claude Traffic Light
 
-![demo](screenshot.png)
+![demo](img/test.jpg)
 
 为每个 Claude Code 终端窗口生成一盏漫画风红绿灯，一眼看出哪个在忙、哪个在等你。
 
