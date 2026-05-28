@@ -6,11 +6,11 @@
 
 ## 功能
 
-- **红灯** — Claude Code 正在输出（CPU/IO 活跃）
-- **绿灯** — Claude Code 空闲，等你输入
+- **红灯** — Claude Code 正在输出
+- **绿灯** — Claude Code  空闲 / 等你输入
 - **双击灯** — 自动聚焦到对应终端窗口
 - **拖拽** — 随意移动位置
-- **系统托盘** — 右键退出，无黑窗口
+- **系统托盘** — 右键退出
 
 ## 使用
 
@@ -24,10 +24,6 @@
 pip install psutil pywin32 pyinstaller
 pyinstaller --onefile --windowed --name ClaudeTrafficLight --icon icon.ico --add-data "icon.ico;." claude_traffic_light.py
 ```
-
-## 检测方式
-
-进程名 `claude.exe` / `Claude Code`，或命令行包含 `claude-code`。
 
 ## 许可
 
