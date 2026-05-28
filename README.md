@@ -1,30 +1,34 @@
-# Claude Traffic Light
+# Claude Traffic Light | Claude 红绿灯
 
 ![demo](img/test.jpg)
 
-为每个 Claude Code 终端窗口生成一盏漫画风红绿灯，一眼看出哪个在忙、哪个在等你。
+开了好几个 Claude Code 窗口，根本分不清哪个在跑、哪个在等你？？
 
-## 功能
+这个小工具帮你搞定 —— 每个终端窗口头顶一盏漫画风红绿灯，状态一目了然！
 
-- **红灯** — Claude Code 正在输出
-- **绿灯** — Claude Code  空闲 / 等你输入
-- **双击灯** — 自动聚焦到对应终端窗口
-- **拖拽** — 随意移动位置
-- **系统托盘** — 右键退出
+## 亮点功能
 
-## 使用
+- 🔴 **红灯亮了** — Claude 正在疯狂输出中，别打扰它
+- 🟢 **绿灯亮了** — Claude 等你输入啦，快去翻牌子
+- 🖱️ **双击灯** — 秒切到对应终端窗口，不用满屏找
+- ✋ **拖拽移动** — 想放哪放哪，桌面布局随心配
+- 📌 **系统托盘** — 右键一键退出，干净利落
 
-1. 下载 `ClaudeTrafficLight.exe`，双击运行
-2. 打开 Claude Code 终端，红绿灯自动出现
-3. 托盘图标右键 → Quit 退出
+## 上手超简单
 
-## 构建
+1. 下载 `ClaudeTrafficLight.exe`，双击打开就行
+2. 开一个 Claude Code 终端 → 红绿灯自动出现
+3. 不用了？托盘右键 → Quit，拜拜
+
+> 零配置，开箱即用，小白友好
+
+## 自己构建
 
 ```bash
 pip install psutil pywin32 pyinstaller
 pyinstaller --onefile --windowed --name ClaudeTrafficLight --icon icon.ico --add-data "icon.ico;." claude_traffic_light.py
 ```
 
-## 许可
+## 开源协议
 
-MIT
+MIT — 随便用，玩得开心
