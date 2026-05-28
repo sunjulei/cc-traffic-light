@@ -1,0 +1,7 @@
+.claude/
+dist/
+build/
+__pycache__/
+*.spec
+*.pyc
+debug.log
